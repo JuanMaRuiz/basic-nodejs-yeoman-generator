@@ -12,7 +12,7 @@ module.exports = class SimpleScaffolder extends Generator {
       type: "input",
       name: "name",
       message: "Dummy message",
-      default: this.appname // Default to the current folder,
+      default: this.appname,// Default to the current folder,
       store: true
     }]).then( (answers) => {
       this.log('appname', answers.name)

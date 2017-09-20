@@ -1,5 +1,5 @@
 {
-  "name": "basic-nodejs-yeoman-generator",
+  "name": "generator-basic-nodejs-project",
   "version": "0.1.0",
   "description": "Very basic yo generator to scaffold NodeJS application with mongoDB connection",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "keywords": [
     "nodejs",
     "mongo",
-    "generator",
+    "yeoman-generator",
     "yeoman",
     "yo"
   ],
