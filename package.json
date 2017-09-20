@@ -4,7 +4,7 @@
   "description": "Very basic yo generator to scaffold NodeJS application with mongoDB connection",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/jest tests"
   },
   "repository": {
     "type": "git",
