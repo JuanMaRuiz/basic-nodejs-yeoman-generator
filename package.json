@@ -1,0 +1,26 @@
+{
+  "name": "basic-nodejs-yeoman-generator",
+  "version": "0.1.0",
+  "description": "Very basic yo generator to scaffold NodeJS application with mongoDB connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMaRuiz/basic-nodejs-yeoman-generator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongo",
+    "generator",
+    "yeoman",
+    "yo"
+  ],
+  "author": "JuanMaRuiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanMaRuiz/basic-nodejs-yeoman-generator/issues"
+  },
+  "homepage": "https://github.com/JuanMaRuiz/basic-nodejs-yeoman-generator#readme"
+}
