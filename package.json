@@ -17,10 +17,27 @@
     "yeoman",
     "yo"
   ],
-  "author": "JuanMaRuiz",
+  "author": {
+    "name": "JuanMa ruiz",
+    "email": "ruizjuanma@gmail.com",
+    "url": "http://www.juanmaruiz.es"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JuanMaRuiz/basic-nodejs-yeoman-generator/issues"
   },
-  "homepage": "https://github.com/JuanMaRuiz/basic-nodejs-yeoman-generator#readme"
+  "homepage": "https://github.com/JuanMaRuiz/basic-nodejs-yeoman-generator#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "yeoman-generator": "^2.0.0",
+    "yosay": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-config-google": "^0.9.1",
+    "jest": "^21.1.0",
+    "jest-cli": "^21.1.0",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.7.0"
+  }
 }
