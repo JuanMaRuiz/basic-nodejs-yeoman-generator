@@ -29,11 +29,34 @@ module.exports = class SimpleScaffolder extends Generator {
       store: true
     }
     ]).then( (answers) => {
-      this.log('Project Name,', answers.projectName)
-      this.log('Package Name,', answers.packageName)
-      this.log('Dependency Manager,', answers.dependencyManager)
-    })
+      this.config = {
+        packageName: answers.packageName,
+        projectName: answers.projectName,
+        dependencyManager: answers.dependencyManager
+      };
+      this.log('These are your selections ,', this.config);
+    });
   }
+
+  writing() {
+    this.fs.copyTpl(
+      this.templatePath('package.json'),
+      this.destinationPath('package.json'),
+      {
+        packageName: this.config.packageName
+      }
+    );
+    this.fs.copyTpl(
+      this.templatePath('server.js'),
+      this.destinationPath('server.js'),
+      {
+        projectName: this.config.projectName
+      }
+    );
+
+    // Install the dependencies with the proper dependency manager
+    (this.config.depManager === 'yarn') ? this.yarnInstall() : this.npmInstall();
+  };
 };
 
 function normalizeName(str) {
