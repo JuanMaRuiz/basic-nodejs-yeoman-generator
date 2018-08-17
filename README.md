@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/JuanMaRuiz/basic-project-yeoman-generator.svg?branch=master)](https://travis-ci.org/JuanMaRuiz/basic-project-yeoman-generator)
-[![Dependencies Status](https://david-dm.org/JuanMaRuiz/basic-project-yeoman-generator.svg)](https://david-dm.org/)
+[![Dependencies Status](https://david-dm.org/JuanMaRuiz/basic-project-yeoman-generator.svg)](https://david-dm.org/) [![Greenkeeper badge](https://badges.greenkeeper.io/JuanMaRuiz/basic-nodejs-yeoman-generator.svg)](https://greenkeeper.io/)
 
 # Yeoman generator for a very basic nodejs app  #
 
